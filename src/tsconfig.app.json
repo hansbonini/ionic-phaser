@@ -3,7 +3,8 @@
   "compilerOptions": {
     "outDir": "../out-tsc/app",
     "baseUrl": "./",
-    "module": "es2015"
+    "module": "es2015",
+    "lib": [ "es5", "dom", "scripthost" ],
   },
   "exclude": [
     "test.ts",
